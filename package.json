@@ -1,0 +1,27 @@
+{
+  "name": "iso-3166-country-codes-scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikekonan/iso-3166-country-codes-scrapper.git"
+  },
+  "keywords": [
+    "iso-3166",
+    "country",
+    "codes"
+  ],
+  "author": "Mikalai Konan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikekonan/iso-3166-country-codes-scrapper/issues"
+  },
+  "homepage": "https://github.com/mikekonan/iso-3166-country-codes-scrapper#readme",
+  "dependencies": {
+    "puppeteer": "^5.4.1"
+  }
+}
