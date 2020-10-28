@@ -18,7 +18,7 @@ const tableXPath = "//div[@class='v-grid v-widget v-has-width country-code v-gri
 
     try {
         await page.waitForXPath(spinnerXpath, {visible: true, timeout: 5000});
-        await page.waitForXPath(spinnerXpath), {visible: false, timeout: 5000};
+        await page.waitForXPath(spinnerXpath, {visible: false, timeout: 5000});
         await page.waitForXPath(selectXPath, {visible: true, timeout: 5000});
     } catch (e) {
     }
@@ -31,7 +31,7 @@ const tableXPath = "//div[@class='v-grid v-widget v-has-width country-code v-gri
     await select.type('300');
     await select.press('Enter');
 
-    await page.waitForXPath(spinnerXpath), {visible: false, timeout: 5000};
+    await page.waitForXPath(spinnerXpath , {visible: false, timeout: 5000});
     await page.waitForXPath(selectXPath, {visible: true, timeout: 5000});
     await page.waitForXPath(tableXPath, {visible: true, timeout: 5000});
     await page.waitForTimeout(500);
